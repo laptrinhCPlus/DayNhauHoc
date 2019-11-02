@@ -48,7 +48,7 @@ float SumExample8(int nValue){
     return 0;
   }
   else{
-    return ((float)(2*nValue +1 ))/(2*nValue +2))+ TinhTongBai8(nValue-1);
+    return ((float)(2*nValue +1 ))/(2*nValue +2) + SumExample8(nValue-1);
   }
 }
 
