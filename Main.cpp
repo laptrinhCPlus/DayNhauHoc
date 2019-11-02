@@ -12,10 +12,13 @@ float SumExample9(int nValue);
 //Main
 int main(){
   int nValue = 0;
-  cout<<"Nhap gia tri N : ";
+  cout<<"Please input a value : ";
   cin>>nValue;
   // Call the function to Sum calculator at here
-
+  cout<<"\nSum : "<<SumExample6(nValue);
+  cout<<"\nSum : "<<SumExample7(nValue);
+  cout<<"\nSum : "<<SumExample8(nValue);
+  cout<<"\nSum : "<<SumExample9(nValue);
   system("pause");
   return 0;
 }
