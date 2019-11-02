@@ -45,7 +45,7 @@ float SumExample7(int nValue){
 
 float SumExample8(int nValue){
   if(nValue == 0){
-    return 0;
+    return (float)1/2;
   }
   else{
     return ((float)(2*nValue +1 ))/(2*nValue +2) + SumExample8(nValue-1);
